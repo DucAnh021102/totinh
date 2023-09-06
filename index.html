@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="owlcarousel/assetss/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assetss/owl.theme.default.css">
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="boxHeartImg">
+            <div class="heartItem item1">
+                <img src="img/heart.png" alt="">
+            </div>
+            <div class="heartItem item2">
+                <img src="img/heart.png" alt="">
+            </div>
+            <div class="heartItem item3">
+                <img src="img/heart.png" alt="">
+            </div>
+        </div>
+        <div class="heartBox">
+            <div class="heart"></div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="percent">100%</div>
+        </div>
+        <h2 class="textBox">
+            <span class="textLoad">loading love</span>
+            <span class="cricle1">.</span>
+            <span class="cricle2">.</span>
+            <span class="cricle3">.</span>
+        </h2>
+        <div class="buttonCLick">
+            <img src="img/cursor.png" alt="">
+            <div class="button">
+                <p class="textBtn"></p>
+            </div>
+        </div>
+    </div>
+    <div class="slider__img">
+        <script>
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 3000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                    }
+                })
+            });
+        </script>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/avt3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt5.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt6.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/avt7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
